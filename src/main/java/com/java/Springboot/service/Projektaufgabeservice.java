@@ -16,7 +16,6 @@ public class Projektaufgabeservice
 
     Projektaufgabeservice()
     {
-
     }
     public List<Projektaufgabe> listAll()
     {

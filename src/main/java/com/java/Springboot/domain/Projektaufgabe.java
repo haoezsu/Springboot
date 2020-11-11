@@ -19,7 +19,6 @@ public class Projektaufgabe {
 
     public Projektaufgabe()
     {
-
     }
 
     public int getId() {
@@ -51,5 +50,4 @@ public class Projektaufgabe {
         this.meilenstein = meilenstein;
 
     }
-
 }

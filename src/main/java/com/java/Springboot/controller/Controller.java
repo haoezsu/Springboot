@@ -46,5 +46,4 @@ public class Controller
         meilenstein1.delMeilenstein(test);
         return new ResponseEntity<>("Hallo", HttpStatus.OK);
     }
-
 }

@@ -21,8 +21,8 @@ public class SpringbootApplication {
 		Meilenstein meilenstein = new Meilenstein("Projektantrag abgeschlossen");
 		Meilenstein meilenstein1 = new Meilenstein("Prototyp fertig");
 		Projektaufgabe aufgabe = new Projektaufgabe("IntermetRadio", meilenstein);
-		Projektaufgabe aufgabe1 = new Projektaufgabe("IntermetRadio", meilenstein);
-		Projektaufgabe aufgabe2 = new Projektaufgabe("IntermetRadio", meilenstein);
+		Projektaufgabe aufgabe1 = new Projektaufgabe("Learnviz", meilenstein);
+		Projektaufgabe aufgabe2 = new Projektaufgabe("Projekt", meilenstein);
 		List<Projektaufgabe> projektaufgaben = Arrays.asList(aufgabe, aufgabe1, aufgabe2);
 		meilenstein.setProjektaufgaben(projektaufgaben);
 		meilensteinrepository.save(meilenstein);

@@ -9,7 +9,6 @@ import java.util.List;
 //@Table(name = "/Meilenstein")
 public class Meilenstein
 {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
